@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="/portfolio/css/style.css">
+    <title>Portfoio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="navContainer">
+                <ul class="nav-options">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="hero-name">
+                <h1>Hi,<br>I am <span>Vicky kumar</span> <br> Frontend developer</h1>
+                <button>contact</button>
+            </div>
+            <div class="hero-img">
+                <img src="images/img1.jpg" alt="profileImage">
+            </div>
+        </section>
+
+        <section class="about-section">
+            <!-- Picture Div -->
+            <div class="about-image">
+                <img src="images/img1.jpg" alt="Developer Photo">
+            </div>
+
+            <!-- Text Div -->
+            <div class="about-content">
+                <h2>About the Developer</h2>
+                <p>
+                    I am a passionate web developer with experience in building clean,
+                    responsive, and user-friendly websites. I enjoy turning complex
+                    problems into simple, beautiful, and intuitive designs.
+                </p>
+                <p>
+                    My focus is on modern web technologies, performance optimization,
+                    and creating seamless user experiences across all devices.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <!-- Image Div -->
+            <div class="about-image">
+                <img src="images/img1.jpg" alt="About Image">
+            </div>
+
+            <!-- Skills Div -->
+            <div class="about-skills">
+                <h2>My Skills</h2>
+
+                <div class="skill">
+                    <div class="skill-name">HTML</div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">CSS</div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Tailwind</div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">React.Js</div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">Python</div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-section">
+            <h2>My Projects</h2>
+
+            <div class="projects-container">
+                <div class="project-box">
+                    <a href="project1.html">
+                        <img src="images/img1.jpg" alt="Project 1">
+                    </a>
+                </div>
+
+                <div class="project-box">
+                    <a href="project2.html">
+                        <img src="images/img1.jpg" alt="Project 2">
+                    </a>
+                </div>
+
+                <div class="project-box">
+                    <a href="project3.html">
+                        <img src="images/img1.jpg" alt="Project 3">
+                    </a>
+                </div>
+
+                <div class="project-box">
+                    <a href="project4.html">
+                        <img src="images/img1.jpg" alt="Project 4">
+                    </a>
+                </div>
+
+                <div class="project-box">
+                    <a href="project5.html">
+                        <img src="images/img1.jpg" alt="Project 5">
+                    </a>
+                </div>
+
+                <div class="project-box">
+                    <a href="project6.html">
+                        <img src="images/img1.jpg" alt="Project 6">
+                    </a>
+                </div>
+                <div class="project-box">
+                    <a href="project7.html">
+                        <img src="images/img1.jpg" alt="Project 6">
+                    </a>
+                </div>
+                <div class="project-box">
+                    <a href="project8.html">
+                        <img src="images/img1.jpg" alt="Project 6">
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <div id="container">
+                <form class="contact-form" id="contactForm" novalidate>
+                    <h2>Contact Us</h2>
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name">
+                        <div class="error" id="nameError"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                        <div class="error" id="emailError"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message"></textarea>
+                        <div class="error" id="messageError"></div>
+                    </div>
+
+                    <button type="submit">Send</button>
+                </form>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>@copy all rights reserved to codex</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
