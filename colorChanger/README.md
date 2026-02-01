@@ -1,0 +1,1 @@
+This is a JavaScript project in which we will use js to create background changer by clicking on different colors.
