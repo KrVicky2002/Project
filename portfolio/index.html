@@ -1,208 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Custom css -->
-    <link rel="stylesheet" href="/portfolio/css/style.css">
-    <title>Portfoio</title>
+    <meta name="description" content="personal portfolio of a web developer showcasing projects, skills, and experience.">
+    <meta name="keywords" content="portfolio, web developer, software developer, HTML, CSS, JavaScript">
+    <meta name="autor" content="Vicky kumar">
+    <title>Portfolio - Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <header>
-        <nav class="nav">
-            <div class="navContainer">
-                <ul class="nav-options">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
-    <main>
-        <section id="home">
-            <div class="hero-name">
-                <h1>Hi,<br>I am <span>Vicky kumar</span> <br> Frontend developer</h1>
-                <button>contact</button>
-            </div>
-            <div class="hero-img">
-                <img src="images/img1.jpg" alt="profileImage">
-            </div>
-        </section>
-
-        <section class="about-section">
-            <!-- Picture Div -->
-            <div class="about-image">
-                <img src="images/img1.jpg" alt="Developer Photo">
-            </div>
-
-            <!-- Text Div -->
-            <div class="about-content">
-                <h2>About the Developer</h2>
-                <p>
-                    I am a passionate web developer with experience in building clean,
-                    responsive, and user-friendly websites. I enjoy turning complex
-                    problems into simple, beautiful, and intuitive designs.
-                </p>
-                <p>
-                    My focus is on modern web technologies, performance optimization,
-                    and creating seamless user experiences across all devices.
-                </p>
-            </div>
-        </section>
-
-        <section id="skills">
-            <!-- Image Div -->
-            <div class="about-image">
-                <img src="images/img1.jpg" alt="About Image">
-            </div>
-
-            <!-- Skills Div -->
-            <div class="about-skills">
-                <h2>My Skills</h2>
-
-                <div class="skill">
-                    <div class="skill-name">HTML</div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 90%;"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <div class="skill-name">CSS</div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 85%;"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <div class="skill-name">JavaScript</div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 75%;"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">Tailwind</div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 75%;"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">React.Js</div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 75%;"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <div class="skill-name">Python</div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 70%;"></div>
-                    </div>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-left">
+                <h1 class="hero-name">John Doe</h1>
+                <p class="hero-intro">Passionate software developer specializing in web technologies. I build modern, responsive applications with a focus on user experience and clean code.</p>
+                <div class="hero-buttons">
+                    <a href="path/to/your-cv.pdf" class="btn btn-primary" download>Download CV</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
                 </div>
             </div>
-        </section>
+            <div class="hero-right">
+                <img src="/portfolio/images/bg1.avif" alt="Profile Image" class="profile-img">
+            </div>
+        </div>
+    </section>
 
-        <section class="projects-section">
-            <h2>My Projects</h2>
-
-            <div class="projects-container">
-                <div class="project-box">
-                    <a href="project1.html">
-                        <img src="images/img1.jpg" alt="Project 1">
-                    </a>
+    <!-- Services Section (Brief, as per requirements) -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Web Development</h3>
+                    <p>Building responsive websites and web apps using HTML, CSS, and JavaScript.</p>
                 </div>
-
-                <div class="project-box">
-                    <a href="project2.html">
-                        <img src="images/img1.jpg" alt="Project 2">
-                    </a>
+                <div class="service-card">
+                    <h3>UI/UX Design</h3>
+                    <p>Creating intuitive user interfaces with modern design principles.</p>
                 </div>
-
-                <div class="project-box">
-                    <a href="project3.html">
-                        <img src="images/img1.jpg" alt="Project 3">
-                    </a>
-                </div>
-
-                <div class="project-box">
-                    <a href="project4.html">
-                        <img src="images/img1.jpg" alt="Project 4">
-                    </a>
-                </div>
-
-                <div class="project-box">
-                    <a href="project5.html">
-                        <img src="images/img1.jpg" alt="Project 5">
-                    </a>
-                </div>
-
-                <div class="project-box">
-                    <a href="project6.html">
-                        <img src="images/img1.jpg" alt="Project 6">
-                    </a>
-                </div>
-                <div class="project-box">
-                    <a href="project7.html">
-                        <img src="images/img1.jpg" alt="Project 6">
-                    </a>
-                </div>
-                <div class="project-box">
-                    <a href="project8.html">
-                        <img src="images/img1.jpg" alt="Project 6">
-                    </a>
+                <div class="service-card">
+                    <h3>Consulting</h3>
+                    <p>Providing technical advice and code reviews for projects.</p>
                 </div>
             </div>
-        </section>
-        
-        <section id="contact">
-            <div id="container">
-                <form class="contact-form" id="contactForm" novalidate>
-                    <h2>Contact Us</h2>
+        </div>
+    </section>
 
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name">
-                        <div class="error" id="nameError"></div>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-card">
+                <p class="about-bio">I'm a software developer with 5+ years of experience in full-stack development. I love solving complex problems and creating efficient, scalable solutions.</p>
+                <p><strong>Education:</strong> Bachelor's in Computer Science from XYZ University.</p>
+                <p><strong>Interests:</strong> Open-source contributions, hiking, and reading tech blogs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>HTML</h3>
+                    <div class="progress-bar"><div class="progress" data-width="95%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <h3>CSS</h3>
+                    <div class="progress-bar"><div class="progress" data-width="90%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <h3>React</h3>
+                    <div class="progress-bar"><div class="progress" data-width="80%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <h3>Node.js</h3>
+                    <div class="progress-bar"><div class="progress" data-width="75%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <h3>Python</h3>
+                    <div class="progress-bar"><div class="progress" data-width="70%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250?text=Project+1" alt="Project 1">
+                    <h3>E-Commerce Site</h3>
+                    <p>A responsive e-commerce platform built with React and Node.js.</p>
+                    <div class="project-buttons">
+                        <a href="#" class="btn btn-small">Live Demo</a>
+                        <a href="#" class="btn btn-small btn-outline">GitHub</a>
                     </div>
-
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email">
-                        <div class="error" id="emailError"></div>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250?text=Project+2" alt="Project 2">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio site with animations and responsive design.</p>
+                    <div class="project-buttons">
+                        <a href="#" class="btn btn-small">Live Demo</a>
+                        <a href="#" class="btn btn-small btn-outline">GitHub</a>
                     </div>
-
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message"></textarea>
-                        <div class="error" id="messageError"></div>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250?text=Project+3" alt="Project 3">
+                    <h3>Task Manager App</h3>
+                    <p>A productivity app using JavaScript and local storage.</p>
+                    <div class="project-buttons">
+                        <a href="#" class="btn btn-small">Live Demo</a>
+                        <a href="#" class="btn btn-small btn-outline">GitHub</a>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                    <button type="submit">Send</button>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <form id="contact-form" class="contact-form">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
                 </form>
-
+                <div class="social-icons">
+                    <a href="#" class="social-icon">LinkedIn</a>
+                    <a href="#" class="social-icon">GitHub</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                </div>
             </div>
-        </section>
-    </main>
-    <footer>
-        <p>@copy all rights reserved to codex</p>
-    </footer>
-
-
-
-
-
-
-
-
-
+        </div>
+    </section>
 
     <script src="main.js"></script>
 </body>
-
 </html>
